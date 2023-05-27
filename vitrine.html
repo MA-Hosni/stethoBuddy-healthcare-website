@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+        <!--=============== REMIXICON ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="vitrine.css">
+
+        <title>StethoBuddy</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+              <a href="#" class="nav__logo">
+                <img src="images/logo.png" alt="logo">SthoBuddy
+              </a>
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#program" class="nav__link">Learn</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#choose" class="nav__link">Choose Us</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#pricing" class="nav__link">Pricing</a>
+                  </li>
+
+                  <div class="nav__link">
+                    <a href="sign_up_in.html" class="button nav__button">Register Now</a>
+                  </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+                </div>
+              </div>
+              <!-- Toggle button -->
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+              </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                  <div class="home__data">
+                    <h2 class="home__subtitle">Intelligent</h2>
+                    <h1 class="home__title">stethoscope</h1>
+                    <p class="home__description">StethoBuddy detects abnormal sounds in the respiratory system. With StethoBuddy, you can auscultate your child at home, just like an experienced physician in a practice, and immediately know the result
+                    </p>
+                      <button class="button button__flex">
+                        <span>Health Check</span>
+                        <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                            <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+                        </svg>
+                    </button>
+                  </div>
+
+                  <div class="home__images">
+                    <img src="images/output.jpg" alt="home image" class="home__img">
+
+                    <!-- <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>                     -->
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                  <img src="images/metronic_logo.png" class="logos__img">
+                  <img src="images/unitedhealth_logo.png" class="logos__img">
+                  <img src="images/johnson_logo.png" class="logos__img">
+                  <img src="images/pfizer_logo.png" class="logos__img">
+                </div>
+            </section>
+
+            <!--==================== PROGRAM ====================-->
+            <section class="program section" id="program">
+                <div class="container">
+                  <div class="section__data">
+                    <h2 class="section__subtitle">How to use</h2>
+                    <div class="section__titles">
+                      <h1 class="section__title-border">Auscultate your child at home</h1>
+                      <h1 class="section__title"> know the result right away</h1>
+                    </div>
+                  </div>
+
+                  <div class="program__container grid">
+                          <!----------------------------------- ARTICLE 1 -->
+                    <article class="program__card">
+                      <div class="program__shape">
+                        <img src="images/etape1.png" class="program__img">
+                      </div>
+                      <h3 class="program__title">1</h3>
+                      <p class="program__description">Turn on the stethoscope and the StethoBuddy application on your phone. The devices connect automatically.</p>
+                    </article>
+                          <!----------------------------------- ARTICLE 2 -->
+                    <article class="program__card">
+                      <div class="program__shape">
+                        <img src="images/etape2.png" class="program__img">
+                      </div>
+                      <h3 class="program__title">2</h3>
+                      <p class="program__description">Place the stethoscope on your child's chest. The system will guide you throughout the process, and will inform you if the measurement is wrong or the surroundings are too noisy</p>
+                    </article>
+                          <!----------------------------------- ARTICLE 3 -->
+                    <article class="program__card">
+                      <div class="program__shape">
+                        <img src="images/etape3.png" class="program__img3">
+                      </div>
+                      <h3 class="program__title">3</h3>
+                      <p class="program__description">You can see if the examination shows the sounds characteristic of pneumonia and bronchitis or asthma exacerbations.</p>
+                    </article>
+                          <!----------------------------------- ARTICLE 4 -->
+                    <article class="program__card">
+                      <div class="program__shape" >
+                        <img src="images/etape4.png" class="program__img4">
+                      </div>
+                      <h3 class="program__title">4</h3>
+                      <p class="program__description">Wherever you are, you can send any doctor a link to the website with the examination result by a text message or an email. To read it, your doctor does not need to be familiar with StethoBuddy or be registered on our platform</p>
+                    </article>
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== CHOOSE US ====================-->
+            <section class="choose section" id="choose">
+                <div class="choose__overflow">
+                  <div class="choose__container container grid">
+                    <div class="choose__content">
+                      <div class="section__data">
+                        <h2 class="section__subtitle">Our knowledge and experience</h2>
+                        <div class="section__titles">
+                          <h1 class="section__title-border">WHY</h1>
+                          <h1 class="section__title">CHOOSE US</h1>
+                        </div>
+                      </div>
+
+                      <p class="choose__description">
+                        Imagine a physician who has gathered the expertise from performing and interpreting more than 42,000 respiratory auscultations in children. Someone who is never tired, is in an excellent mood and is always available to you.</p>
+                        <h4>Rest assured that we are trusted and reliable</h4>
+                        <div class="choose__data">
+                          <div class="choose__group">
+                            <h3 class="choose__number">1,5 M+</h3>
+                            <p class="choose__subtitle">auscultatory tags</p>
+                          </div>
+                          <div class="choose__group">
+                            <h3 class="choose__number">5+</h3>
+                            <p class="choose__subtitle">years of study</p>
+                          </div>
+                          <div class="choose__group">
+                            <h3 class="choose__number">42 K+</h3>
+                            <p class="choose__subtitle">medical opinions</p>
+                          </div>
+                          <div class="choose__group">
+                            <h3 class="choose__number">60+</h3>
+                            <p class="choose__subtitle">world-class experts</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="choose__images">
+                      <img src="images/image-removebg-preview.png" class="choose__img">
+
+                      <div class="choose__triangle choose__triangle-1"></div>
+                    <div class="choose__triangle choose__triangle-2"></div>
+                    <div class="choose__triangle choose__triangle-3"></div>  
+                    </div>
+                  </div>
+                </div>
+            </section>
+
+            <!--==================== PRICING ====================-->
+            <section class="pricing section" id="pricing">
+                       <div class="container">
+                        <div class="section__data">
+                          <h2 class="section__subtitle">princing</h2>
+                          <div class="section__titles">
+                            <h1 class="section__title-border">Choose your StethoBuddy</h1>
+                            <h1 class="section__title">subscription type</h1>
+                          </div>
+                        </div>
+
+                        <div class="pricing__container grid">
+                          <article class="pricing__card pricing__card-active">
+                            <header class="pricing__header">
+                              <div class="pricing__shape">
+                                <img src="images/buy-removebg-preview.png" alt="" class="pricing__img">
+                              </div>
+
+                              <h1 class="pricing__title">3 months Payment</h1>
+                              <h2 class="pricing__number">35,97 BTC</h2>
+                            </header>
+
+                            <ul class="pricing__list">
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Complete lung auscultation with immediate results
+                              </li>
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>Special test for asthmatics with immediate results
+                              </li>
+                              <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Data sharing with your physician
+                              </li>
+                              <li class="pricing__item ">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Safe storage of examination results
+                              </li>
+                              <li class="pricing__item pricing__item-opacity">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Unlimited number of patient profiles
+                              </li>
+                            </ul>
+                            <button class="button button__flex1">
+                              <span>Buy Now</span>
+                              <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                                  <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+                              </svg>
+                          </button>
+                          </article>
+                          <article class="pricing__card">
+                            <header class="pricing__header">
+                              <div class="pricing__shape">
+                                <img src="images/buy-removebg-preview.png" alt="" class="pricing__img">
+                              </div>
+
+                              <h1 class="pricing__title">12 months Payment</h1>
+                              <h2 class="pricing__number">119,88 BTC</h2>
+                            </header>
+
+                            <ul class="pricing__list">
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Complete lung auscultation with immediate results
+                              </li>
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>Special test for asthmatics with immediate results
+                              </li>
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Data sharing with your physician
+                              </li>
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Safe storage of examination results
+                              </li>
+                              <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i>
+                                Unlimited number of patient profiles
+                              </li>
+                            </ul>
+                            <button class="button button__flex">
+                              <span>Buy Now</span>
+                              <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                                  <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+                              </svg>
+                          </button>
+                          </article>
+                        </div>
+                       </div>   
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section" id="footer">
+            <div class="footer__container container grid">
+              <div>
+                <a href="#" class="footer__logo">
+                  <img src="images/logo.png" alt="">StethoBuddy
+                </a>
+                <p class="footer__description">
+                  Subscribe for company <br> updates below.
+                </p>
+                <form action="" class="footer__form" id="contact-form">
+                  <input type="email" name="user_email" placeholder="Your email" class="footer__input" id="contact-user">
+                  <button type="submit" class="button button1">Subscribe</button>
+                </form>
+                <p class="footer__message" id="contact-message"></p>
+              </div>
+              <div class="footer__content">
+                <div>
+                  <h3 class="footer__title">
+                    About the store
+                  </h3>
+
+                  <ul class="footer__links">
+                    <li>
+                      <a href="#" class="footer__link">Terms and conditions of the store</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer__link">Privacy policy</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer__link">Manage subscription</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- ======================================= -->
+               <div>
+                <h3 class="footer__title">
+                  Information
+                </h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link">Warranty</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Shipping policy</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Refund policy</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- ============================================== -->
+              <div>
+                <h3 class="footer__title">
+                  Support
+                </h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link">Contact</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">User manual</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__link">Supported devices</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- ========================================== -->
+              <div>
+                <h3 class="footer__title">
+                  Other
+                </h3>
+
+                <ul class="footer__links">
+                  <li>
+                    <a href="#" class="footer__link">EU Project</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="footer__group">
+                <ul class="footer__social">
+                  <a href="https://www.google.com" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-circle-fill"></i>
+                  </a>
+                  <a href="https://www.google.com" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                  </a>
+                  <a href="https://www.google.com" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                </ul>
+                <span class="footer__copy">
+                  &#169; Copyright dali aka exodia. All rights reserved
+                </span>
+              </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="svanimation.js"></script>
+
+        <!--=============== EMAIL JS ===============-->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="vitrine.js"></script>
+    </body>
+</html>

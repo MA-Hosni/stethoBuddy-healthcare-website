@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+
+ <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="analyse.css">
+
+  <title>StethoBuddy | Analyse</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navigation">
+      <ul>
+        <li>
+          <a href="#" class="brand">
+            <span class="icon"><img src="images/logo.png" alt="logo"></span>
+            <span class="title title1">STETHOBUDDY</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+            <span class="title">dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+            <span class="title">custumers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></span>
+            <span class="title">message</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="help-circle-outline"></ion-icon></span>
+            <span class="title">help</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+            <span class="title">settings</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+            <span class="title">sign out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- ==================== MAIN ================= -->
+    <div class='main'>
+    <!-- ==================== APP-BAR ================= -->   
+      <div class="topbar">
+        <div class="toggle">
+          <ion-icon name="menu"></ion-icon>
+        </div>
+          <form class="form">
+            <label for="search">
+                <input class="input" type="text" required="" placeholder="Search here" id="search">
+                <div class="fancy-bg"></div>
+                <div class="search">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                        <g>
+                            <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                        </g>
+                    </svg>
+                </div>
+                <button class="close-btn" type="reset">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </label>
+         </form>
+        <div class="notif">
+          <ion-icon name="notifications-outline"></ion-icon>
+        </div>
+        <div class="user">
+          <img src="images/user.jpg" alt="">
+        </div>
+      </div>
+          <!-- ++++++++++++++++++RIGHT SIDE W LWOST+++++++++++++++++ -->
+      <div class="bodybody">
+      <!-- ===============RIGHT-SIDEBAR================= -->
+      <div class="rightsidebar">
+        <div class="contianeer">
+          <div class="calendar">
+            <div class="calendar-header">
+              <span class="month-picker" id="month-picker"> May </span>
+              <div class="year-picker" id="year-picker">
+                <span class="year-change" id="pre-year">
+                  <pre><</pre>
+                </span>
+                <span id="year">2020 </span>
+                <span class="year-change" id="next-year">
+                  <pre>></pre>
+                </span>
+              </div>
+            </div>
+     
+            <div class="calendar-body">
+              <div class="calendar-week-days">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+              </div>
+              <div class="calendar-days">
+              </div>
+            </div>
+            <div class="calendar-footer">
+            </div>
+            <div class="date-time-formate">
+              <div class="day-text-formate">TODAY</div>
+              <div class="date-time-value">
+                <div class="time-formate">02:51:20</div>
+                <div class="date-formate">23 - july - 2022</div>
+              </div>
+            </div>
+            <div class="month-list"></div>
+          </div>
+        </div>
+        <!-- =============================calennder -->
+                <!-- ===============TODO LIST ==================-->
+        <div class="todolist">
+          <div class="todo">
+            <div class="texxt">
+              <h3 class="titre">Medical Checkup</h3>
+              <h6 class="ladate">12 May 2023</h6>
+              <span class="docname">Dr. Mohamed Ali Hosni</span>
+            </div>
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text"></span>
+            </button>
+          </div>
+
+          <div class="todo">
+            <div class="texxt">
+              <h3 class="titre">Medical Checkup</h3>
+              <h6 class="ladate">25 May 2023</h6>
+              <span class="docname">Dr. Omar Kerkeny</span>
+            </div>
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text"></span>
+            </button>
+          </div>
+
+          <div class="todo">
+            <div class="texxt">
+              <h3 class="titre">Medical Checkup</h3>
+              <h6 class="ladate">04 Jul 2023</h6>
+              <span class="docname">Dr. Imen Ben Ali</span>
+            </div>
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text"></span>
+            </button>
+          </div>
+
+          <div class="todo">
+            <div class="texxt">
+              <h3 class="titre">Medical Checkup</h3>
+              <h6 class="ladate">14 Jan 2023</h6>
+              <span class="docname">Dr. Rayen Najneji</span>
+            </div>
+            <button class="learn-more">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text"></span>
+            </button>
+          </div>
+        </div>
+                <!-- ===============TODO LIST ==================-->
+      </div>
+      <!-- ===============MAIN BODY================= -->
+      <div class="mainbody">
+        <div class="patient-data">
+          <h3 class="titre">Patient Data</h3>
+          <div class="pdata">
+              <h5>Date of birth:</h5>
+              <span>27 November 2002</span>
+              <h5>Weight:</h5>
+              <span>27 kg</span>
+              <h5>Height:</h5>
+              <span>27 cm</span>
+              <h5>Gender:</h5>
+              <span>Male</span>
+              <h5 id="dziz">Chronic Diseases:</h5>
+              <span id="dziz">Asthma</span>
+              <h5>Permanent medication:</h5>
+              <span>Telfexo, Flutixon, Zafiron</span>
+          </div>
+        </div>
+        <div class="body-composition">
+          <video src="images/video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="analysis">
+          <div class="card">
+            <div class="header">Analysed Points</div>
+            <div class="body">
+              <div class="skill">
+                <div class="skill-name">Wheezes(0-100)</div>
+                <div class="skill-level">
+                  <div class="skill-percent" style="width: 70%"></div>
+                </div>
+                <div class="skill-percent-number">70⬆️</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Rhonchi(0-100)</div>
+                <div class="skill-level">
+                  <div class="skill-percent" style="width: 67%"></div>
+                </div>
+                <div class="skill-percent-number">67⬇️</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Fine crackles(0-100)</div>
+                <div class="skill-level">
+                  <div class="skill-percent" style="width: 0%"></div>
+                </div>
+                <div class="skill-percent-number">0⬇️</div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">Coarse crackles(0-100)</div>
+                <div class="skill-level">
+                  <div class="skill-percent" style="width: 61%"></div>
+                </div>
+                <div class="skill-percent-number">61⬆️</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="sound-effect1">
+          <div class="playbutn">
+            <a class="playstore-button" href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+                <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+              </svg>
+            </a>
+          </div>
+          <div class="taswira">
+            <img src="images/sound.png">
+          </div>
+          <div class="odio">
+            <audio id="audio" src="images/videoplayback (17).m4a"></audio>
+          </div>
+        </div>
+        <div class="sound-effect">
+          <h2 class="chart-heading">Latest Diagnosis</h2>
+          <div class="med-stats">
+            <div class="chart-container">
+              <canvas class="my-chart"></canvas>
+            </div>
+            <div class="details">
+              <ul>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="charting">
+          <div class="chartt">
+            <h2>HEALTH MONTHLY PROGRESS</h2>
+            <canvas id="lineChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="analyse.js"></script>
+</body>
+</html>
